@@ -1,0 +1,26 @@
+.home-page {
+  display: flex;
+  gap: 20px;
+}
+
+.sidebar {
+  min-width: 200px;
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  padding-left: 15px;
+  line-height: 1.6;
+}
+
+.home-content {
+  flex: 1;
+}

@@ -1,0 +1,20 @@
+.occupation-nav {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.occupation-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background: #f0f0f0;
+  transition: background 0.2s, color 0.2s;
+}
+
+.occupation-nav a:hover {
+  background: #1a73e8;
+  color: #fff;
+}
